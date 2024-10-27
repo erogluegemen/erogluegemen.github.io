@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 20px;
+    background-color: #f9f9f9;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.sidebar {
+    background-color: #f7f7f7;
+    width: 220px;
+    padding: 60px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.sidebar h2 {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+.sidebar a {
+    font-size: 1.1em;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding: 5px 0;
+    transition: color 0.3s;
+}
+.sidebar a:hover,
+.sidebar a:focus {
+    color: #4CAF50;
+    outline: none;
+}
+
+.content {
+    flex: 1;
+    padding: 60px;
+}
+.content h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+.content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+.content a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+.content a:hover,
+.content a:focus {
+    text-decoration: underline;
+    outline: none;
+}
+
+.reference {
+    margin-top: 2em;
+    font-size: 0.9em;
+    color: #777;
+}
+
+.job-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.job-entry p {
+    margin: 0;
+    font-weight: normal;
+}
+
+.date {
+    font-style: italic;
+    color: #777;
+}
+
+.page-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.image-gallery {
+    display: flex;
+    gap: 30px; 
+}
+
+.gallery-image {
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
+    object-fit: cover; 
+    border-radius: 8px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+#page-indicator {
+    font-size: 1em;
+    color: #333;
+}
+
+.unavailable-link {
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .sidebar {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+    .content {
+        padding: 20px;
+    }
+}
