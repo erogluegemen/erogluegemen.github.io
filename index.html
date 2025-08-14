@@ -1,34 +1,320 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Egemen Eroglu - Home</title>
-    <link rel="stylesheet" href="assets/styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Egemen Eroglu</title>
+  <meta name="description" content="Egemen Eroğlu — R&D Specialist at DHL Express. Personal site with projects, experiments, and a tiny DHL van GIF that vrooms across the screen." />
+  <meta property="og:title" content="Egemen Eroğlu" />
+  <meta property="og:description" content="R&D Specialist @ DHL Express — projects, experiments & contact" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#FFCC00" />
+  <link rel="icon" type="image/svg+xml"
+  href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%23FFCC00' stroke='%23D40511' stroke-width='2'/%3E%3Cg fill='%23D40511'%3E%3Crect x='18' y='16' width='10' height='32' rx='1'/%3E%3Crect x='18' y='16' width='28' height='8' rx='1'/%3E%3Crect x='18' y='28' width='22' height='8' rx='1'/%3E%3Crect x='18' y='40' width='28' height='8' rx='1'/%3E%3Crect x='50' y='22' width='8' height='3' rx='1'/%3E%3Crect x='50' y='30' width='8' height='3' rx='1'/%3E%3Crect x='50' y='38' width='8' height='3' rx='1'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="preload" href="assets/images/dhl-van.gif" as="image" />
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
+  <header>
+    <div class="container nav">
+      <div class="brand" aria-label="Site brand">
+        <span>Egemen Eroglu</span>
+        <span class="pill" title="Current role"><span class="dot"></span> R&D Specialist @ DHL Express</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#vitae">Vitae</a></li>
+          <li><a href="#contact">Contact</a></li>
+          
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-<div class="container">
-    <div class="sidebar">
-        <h2>Egemen Eroglu</h2>
-        <a href="index.html" aria-label="Home">Home</a>
-        <a href="vitae.html" aria-label="Vitae">Vitae</a>
-        <a href="extras.html" aria-label="Extras">Extras</a>
-    </div>
-    
-    <div class="content">
-        <p>Hi! I’m Egemen.</p>
-        <p>I’m a Data Engineer at Bosch. My journey began with a solid foundation in consulting and the banking industry, where I improved my problem-solving skills. Now, I've pivoted towards the manufacturing industry, focusing on solutions like IoT, where I can apply my expertise in data engineering to optimize processes and drive efficiency.</p>
-        <p>I’m currently working on <strong>Pakette</strong><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref" target="_blank">1</a></sup>, a mobile app designed to reduce food waste by connecting people in Turkey with restaurants and stores that have surplus food. Our mission aligns with several <a href="https://sdgs.un.org/goals" target="_blank" aria-label="United Nations Sustainable Development Goals">United Nations Sustainable Development Goals</a>, including Zero Hunger, Climate Action, and Responsible Consumption and Production.</p>
-        <p>Feel free to connect with me on <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">LinkedIn</a> or check out my repos on <a href="https://github.com/erogluegemen" target="_blank" aria-label="GitHub">GitHub</a>.</p>
-        <br>
-        <p>If these things don’t interest you here’s <a href="art.html">Der Blaue Reiter by Wassily Kandinsky and Franz Marc. Also, Old Guitarist by Pablo Picasso</a></p>
-        
-        <div class="reference">
-            <p id="fn:1">1. For more on Pakette, check out our website at <a href="https://pakette.co" target="_blank" aria-label="Pakette">pakette.co</a> or email us at <a href="mailto:info@pakette.co" aria-label="Email Pakette">info@pakette.co</a>. <a href="#fnref:1" role="doc-backlink" target="_blank">↩</a></p>
+  <main class="container">
+    <section class="hero" id="home">
+      <div>
+        <div class="pill" style="margin-bottom:.75rem"><span class="dot"></span>INNOVATION. SIMPLY BUILT.</div>
+        <h1>Hi, I’m Egemen — building & testing ideas that ship at <span class="mono">Express</span> speed.</h1>
+        <p>
+          I’m an <strong>R&D Specialist at DHL Express</strong>, focusing on the data side of innovation — from building reliable systems to exploring how data can drive smarter, faster logistics. This is my personal corner on the internet.
+        </p>
+        <div class="cta-row">
+          <a class="btn" href="#projects">See Projects</a>
+          <a class="btn" href="#contact">Get in Touch</a>
         </div>
+      </div>
+      <div>
+        <!-- Funny DHL van animation (GIF) -->
+        <div class="van-wrap">
+		  <img class="van" src="assets/images/dhl-van.gif" alt="DHL Van">
+		</div>
+        <p class="tiny-tip">Tip: press <span class="mono">H</span> for a tiny honk.</p>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+	  <h2>Selected Projects</h2>
+	  <div class="cards">
+
+	    <article class="card">
+	      <h3>Address Accuracy Enhancement</h3>
+	      <p>Developed predictive models to detect and correct address inconsistencies before shipment, improving last-mile delivery success rates and reducing manual handling.</p>
+	      <img src="assets/images/address.gif" alt="Address Accuracy Enhancement" class="project-gif">
+	      <div class="meta">
+	        <span>Role: R&D</span>
+	        <span>Stack: Python · scikit-learn · Pandas</span>
+	        <span>Status: In Production</span>
+	      </div>
+	    </article>
+
+	    <article class="card">
+		  <h3>Pack Station Location Optimization</h3>
+		  <p>Developed a geospatial optimization model to determine ideal pack station placements based on delivery density, accessibility, and projected growth, reducing average customer travel distance.</p>
+		  <img src="assets/images/pack_station_optimization.gif" alt="Pack Station Location Optimization" class="project-gif">
+		  <div class="meta">
+		    <span>Role: Data R&D</span>
+		    <span>Stack: Python · GIS · Optimization</span>
+		    <span>Status: Pilot</span>
+		  </div>
+		</article>
+
+	    <article class="card">
+		  
+		  <h3>Predictive Routing Optimization</h3>
+		  <p>Enhancing address accuracy and optimizing last-mile delivery with predictive models to reduce delays and improve routing efficiency.</p>
+		  <img src="assets/images/route.gif" alt="Predictive Routing Optimization" class="project-gif">
+		  <div class="meta">
+		    <span>Role: Data R&D</span>
+		    <span>Stack: Python · ML · GIS</span>
+		    <span>Year: 2025</span>
+		  </div>
+		</article>
+
+	    <article class="card">
+	      <h3>Shipment Delay Prediction Dashboard</h3>
+	      <p>Created a browser-based dashboard for real-time delay predictions, integrating API data from multiple logistics systems for operational decision-making.</p>
+	      <img src="assets/images/shipment_delay.gif" alt="Shipment Delay Prediction Dashboard" class="project-gif">
+	      <div class="meta">
+	        <span>Role: R&D</span>
+	        <span>Stack: Python · FastAPI · React</span>
+	        <span>Status: Pilot</span>
+	      </div>
+	    </article>
+
+	  </div>
+	</section>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>
+        I’m an R&D Specialist at DHL Express, exploring the data side of innovation — researching, testing, and shipping ideas that make logistics smarter and faster.
+      </p>
+      <ul>
+        <li><strong>Now:</strong> R&D Specialist @ DHL Express</li>
+        <li><strong>Focus:</strong> 1% better every day.</li>
+        <li><strong>Fun:</strong> strong coffee and mechanical watches and saxophone.</li>
+      </ul>
+      <div class="skills" aria-label="Skills">
+  <div class="skill-group">
+    <h3>Data & ML</h3>
+    <div class="skill-chips">
+      <span class="skill-chip"><span class="dot"></span>Python</span>
+      <span class="skill-chip"><span class="dot"></span>Pandas</span>
+      <span class="skill-chip"><span class="dot"></span>scikit-learn</span>
+      <span class="skill-chip"><span class="dot"></span>XGBoost</span>
+      <span class="skill-chip"><span class="dot"></span>SQL</span>
     </div>
+  </div>
+
+  <div class="skill-group">
+    <h3>Platforms & Pipelines</h3>
+    <div class="skill-chips">
+      <span class="skill-chip"><span class="dot"></span>Airflow</span>
+      <span class="skill-chip"><span class="dot"></span>FastAPI</span>
+      <span class="skill-chip"><span class="dot"></span>Docker</span>
+      <span class="skill-chip"><span class="dot"></span>GitHub Actions</span>
+    </div>
+  </div>
+
+  <div class="skill-group">
+    <h3>Mapping & Viz</h3>
+    <div class="skill-chips">
+      <span class="skill-chip"><span class="dot"></span>GIS</span>
+      <span class="skill-chip"><span class="dot"></span>MapLibre</span>
+      <span class="skill-chip"><span class="dot"></span>Leaflet</span>
+      <span class="skill-chip"><span class="dot"></span>Plotly</span>
+      <span class="skill-chip"><span class="dot"></span>Matplotlib</span>
+    </div>
+  </div>
+
+  <div class="skill-group">
+    <h3>Practices</h3>
+    <div class="skill-chips">
+      <span class="skill-chip"><span class="dot"></span>R&D</span>
+      <span class="skill-chip"><span class="dot"></span>Experimentation</span>
+      <span class="skill-chip"><span class="dot"></span>MLOps</span>
+      <span class="skill-chip"><span class="dot"></span>Observability</span>
+    </div>
+  </div>
 </div>
 
+    </section>
+
+<section id="vitae" class="vitae">
+  <h2>Vitae</h2>
+
+  <div class="vitae-grid">
+    <!-- 1) EXPERIENCE -->
+    <div class="vitae-col">
+      <h3>Experience</h3>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-icon">🚚</div>
+          <div class="timeline-content">
+            <h4>R&amp;D Specialist — DHL Express</h4>
+            <span class="timeline-date">May 2025 – Present</span>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon">🏭</div>
+          <div class="timeline-content">
+            <h4>Data Engineer — Bosch</h4>
+            <span class="timeline-date">Oct 2023 – Apr 2025</span>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon">🏦</div>
+          <div class="timeline-content">
+            <h4>DWH &amp; Data Engineer — Halkbank</h4>
+            <span class="timeline-date">Jul 2023 – Oct 2023</span>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon">🧠</div>
+          <div class="timeline-content">
+            <h4>ML Researcher — Koç University</h4>
+            <span class="timeline-date">Jul 2023 – Jul 2024</span>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon">💻</div>
+          <div class="timeline-content">
+            <h4>Data Engineer Team Lead — Jeton Digital</h4>
+            <span class="timeline-date">Mar 2023 – Jun 2023</span>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon">💻</div>
+          <div class="timeline-content">
+            <h4>Data Engineer — Jeton Digital</h4>
+            <span class="timeline-date">Sep 2022 – Mar 2023</span>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon">📊</div>
+          <div class="timeline-content">
+            <h4>Data Scientist Intern — SmartOpt</h4>
+            <span class="timeline-date">Jul 2022 – Aug 2022</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2) EDUCATION -->
+    <div class="vitae-col">
+      <h3>Education</h3>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-icon">🎓</div>
+          <div class="timeline-content">
+            <h4>Computer Engineering — Bahçeşehir University</h4>
+            <span class="timeline-date">Sep 2020 – Jan 2025</span>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-icon">🎓</div>
+          <div class="timeline-content">
+            <h4>Management Information Systems — Istanbul University</h4>
+            <span class="timeline-date">Oct 2022 – Present</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3) PUBLICATIONS -->
+    
+    <div class="vitae-col">
+      <h3>Publications</h3>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-icon">📄</div>
+          <div class="timeline-content">
+            <h4>Predictive Machine Learning Framework for Address Error Detection in Logistics System</h4>
+            <span class="timeline-date">2025</span>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-icon">📄</div>
+          <div class="timeline-content">
+            <h4>Simulation Applications in the Logistics Industry: Systematic Literature Review</h4>
+            <span class="timeline-date">2025</span>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-icon">📄</div>
+          <div class="timeline-content">
+            <h4>Predicting IMF Lending Decisions: An Analytical Approach</h4>
+            <span class="timeline-date">2024</span>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-icon">📄</div>
+          <div class="timeline-content">
+            <h4>Earthquake Emergency Response Robots: Design, Development, and Implementation</h4>
+            <span class="timeline-date">2024</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div> <!-- end .vitae-col (Publications) -->
+  </div> <!-- end .vitae-grid -->
+</section> <!-- end #vitae -->
+
+<section id="contact" class="section">
+  <h2>Contact</h2>
+  <div class="cards">
+    <article class="card">
+      <h3>Let’s talk</h3>
+      <p>Best way: <a href="mailto:erogluegemen@gmail.com">erogluegemen@gmail.com</a></p>
+      <p>Also on: <a href="https://github.com/erogluegemen" target="_blank" rel="noopener">GitHub</a> ·
+        <a href="https://www.linkedin.com/in/egemeneroglu" target="_blank" rel="noopener">LinkedIn</a></p>
+    </article>
+    <article class="card">
+      <h3>Resume</h3>
+      <p>If you’d like a PDF resume, ping me!</p>
+      <p>I’ll send the freshest version.</p>
+    </article>
+  </div>
+</section>
+
+
+  <footer>
+    <div class="container">
+      <p>© <span id="y"></span> Egemen. A personal corner of the internet — built with curiosity and caffeine.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <noscript><style>.van{animation:none}</style></noscript>
 </body>
 </html>
