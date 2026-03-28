@@ -116,6 +116,10 @@
     @media (max-width: 600px) {
       .bottles-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; }
     }
+    @media (max-width: 420px) {
+      .bottles-grid { grid-template-columns: 1fr 1fr; gap: 10px; }
+      .bottle-img-wrap { height: 150px; }
+    }
   </style>
 </head>
 <body>
@@ -131,7 +135,7 @@
           <li><a href="index.html#about">About</a></li>
           <li><a href="index.html#vitae">Vitae</a></li>
           <li><a href="index.html#contact">Contact</a></li>
-          <li><a href="collection.html" style="color:var(--dhl-red);">🍾 Liquid Assets</a></li>
+          <li><a href="collection.html" style="color:var(--dhl-red);">🍾<span class="nav-label"> Liquid Assets</span></a></li>
         </ul>
       </nav>
     </div>
