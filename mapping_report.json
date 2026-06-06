@@ -1,0 +1,711 @@
+{
+  "matched": [
+    {
+      "image": "IMG_6782.png",
+      "bottle": "Hendrick's Gin",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6783.png",
+      "bottle": "Klopf Mich Pflaumchen",
+      "score": 0.681
+    },
+    {
+      "image": "IMG_6784.png",
+      "bottle": "Klopf Mich Cream",
+      "score": 0.595
+    },
+    {
+      "image": "IMG_6785.png",
+      "bottle": "Kleiner Feigling",
+      "score": 0.649
+    },
+    {
+      "image": "IMG_6786.png",
+      "bottle": "Klopf Mich Sauerkirsch",
+      "score": 0.694
+    },
+    {
+      "image": "IMG_6789.png",
+      "bottle": "Schwartzhog Kräuter",
+      "score": 0.826
+    },
+    {
+      "image": "IMG_6790.png",
+      "bottle": "Ouzo Exotic Fruits",
+      "score": 0.75
+    },
+    {
+      "image": "IMG_6791.png",
+      "bottle": "Salzkammergut Zirben Schnaps",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6792.png",
+      "bottle": "Gibson's Pink Gin",
+      "score": 0.81
+    },
+    {
+      "image": "IMG_6794.png",
+      "bottle": "Unicum Zwack",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6795.png",
+      "bottle": "Engine Organic Gin",
+      "score": 0.818
+    },
+    {
+      "image": "IMG_6796.png",
+      "bottle": "Reyka Vodka",
+      "score": 0.647
+    },
+    {
+      "image": "IMG_6797.png",
+      "bottle": "Clubhouse Signature Blend",
+      "score": 0.746
+    },
+    {
+      "image": "IMG_6798.png",
+      "bottle": "Weihnachts-Trunk Kräuterlikör",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6799.png",
+      "bottle": "Finlandia",
+      "score": 0.514
+    },
+    {
+      "image": "IMG_6800.png",
+      "bottle": "Flügel",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6801.png",
+      "bottle": "Sangria Barcelona",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6802.png",
+      "bottle": "Mozart Chocolate Cream",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6803.png",
+      "bottle": "Mary White Vodka",
+      "score": 0.8
+    },
+    {
+      "image": "IMG_6804.png",
+      "bottle": "Berliner Luft",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6805.png",
+      "bottle": "Barceló Añejo",
+      "score": 0.634
+    },
+    {
+      "image": "IMG_6806.png",
+      "bottle": "Meukow VS",
+      "score": 0.72
+    },
+    {
+      "image": "IMG_6809.png",
+      "bottle": "Panchitos Tequila Blanco",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6810.png",
+      "bottle": "Koskenkorva",
+      "score": 0.595
+    },
+    {
+      "image": "IMG_6813.png",
+      "bottle": "Nannerl Salzburg Kaffee",
+      "score": 0.852
+    },
+    {
+      "image": "IMG_6814.png",
+      "bottle": "Leibwächter Kräuter Bitter",
+      "score": 0.943
+    },
+    {
+      "image": "IMG_6815.png",
+      "bottle": "Wander-Trunk Kräuterbitter",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6816.png",
+      "bottle": "Nannerl Kiwi",
+      "score": 0.75
+    },
+    {
+      "image": "IMG_6819.png",
+      "bottle": "Nemiroff De Luxe",
+      "score": 0.842
+    },
+    {
+      "image": "IMG_6820.png",
+      "bottle": "Vana Tallinn",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6821.png",
+      "bottle": "Licor de Ginja Mariquinhas",
+      "score": 0.765
+    },
+    {
+      "image": "IMG_6822.png",
+      "bottle": "Torboli Crema di Melone",
+      "score": 0.667
+    },
+    {
+      "image": "IMG_6823.png",
+      "bottle": "Torboli Crema di Nocciole",
+      "score": 0.685
+    },
+    {
+      "image": "IMG_6824.png",
+      "bottle": "Torboli Crema di Fragola",
+      "score": 0.676
+    },
+    {
+      "image": "IMG_6825.png",
+      "bottle": "Torboli Crema di Pistacchio",
+      "score": 0.701
+    },
+    {
+      "image": "IMG_6826.png",
+      "bottle": "Torboli Crema di Limoncello",
+      "score": 0.701
+    },
+    {
+      "image": "IMG_6827.png",
+      "bottle": "Disaronno Originale",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6828.png",
+      "bottle": "Antica Sambuca",
+      "score": 0.778
+    },
+    {
+      "image": "IMG_6829.png",
+      "bottle": "Happy Gin",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6830.png",
+      "bottle": "AU Vodka Blue Raspberry",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6831.png",
+      "bottle": "Brockenhexen Flugbenzin",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6832.png",
+      "bottle": "Sebastian Stroh Williams-Birnen",
+      "score": 0.886
+    },
+    {
+      "image": "IMG_6833.png",
+      "bottle": "Cointreau",
+      "score": 0.667
+    },
+    {
+      "image": "IMG_6834.png",
+      "bottle": "Saint Brendan's Irish Cream",
+      "score": 0.871
+    },
+    {
+      "image": "IMG_6836.png",
+      "bottle": "Cyprus Bitter",
+      "score": 0.741
+    },
+    {
+      "image": "IMG_6837.png",
+      "bottle": "Drumshanbo Gunpowder Sardinian Citrus",
+      "score": 0.831
+    },
+    {
+      "image": "IMG_6838.png",
+      "bottle": "Drumshanbo Gunpowder California Orange",
+      "score": 0.776
+    },
+    {
+      "image": "IMG_6839.png",
+      "bottle": "Yeni Rakı",
+      "score": 0.696
+    },
+    {
+      "image": "IMG_6840.png",
+      "bottle": "Martini Rosso Vermouth",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6841.png",
+      "bottle": "Vecchio Amaro del Capo",
+      "score": 0.733
+    },
+    {
+      "image": "IMG_6842.png",
+      "bottle": "Platzhörsch Vanillige Ricke",
+      "score": 0.871
+    },
+    {
+      "image": "IMG_6843.png",
+      "bottle": "Snaps Forest Fruit",
+      "score": 0.513
+    },
+    {
+      "image": "IMG_6844.png",
+      "bottle": "Nemiroff Honey Pepper",
+      "score": 0.636
+    },
+    {
+      "image": "IMG_6845.png",
+      "bottle": "Der Luchs Sommer Gin",
+      "score": 0.727
+    },
+    {
+      "image": "IMG_6846.png",
+      "bottle": "Havana Club",
+      "score": 0.629
+    },
+    {
+      "image": "IMG_6848.png",
+      "bottle": "Martini Bianco Vermouth",
+      "score": 0.783
+    },
+    {
+      "image": "IMG_6849.png",
+      "bottle": "Danzka Citrus",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6850.png",
+      "bottle": "Danzka Apple",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6851.png",
+      "bottle": "Danzka Forty",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6852.png",
+      "bottle": "Danzka Cranraz",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6853.png",
+      "bottle": "Ursel Premium Dry Gin Heritage",
+      "score": 0.667
+    },
+    {
+      "image": "IMG_6856.png",
+      "bottle": "Rossi D'asiago Limoncello",
+      "score": 0.893
+    },
+    {
+      "image": "IMG_6859.png",
+      "bottle": "Montserrat Gran Licor Aromes del Montserrat",
+      "score": 0.545
+    },
+    {
+      "image": "IMG_6862.png",
+      "bottle": "Sierra Agave Azul Reposado",
+      "score": 0.776
+    },
+    {
+      "image": "IMG_6863.png",
+      "bottle": "Sierra Tropical Chilli",
+      "score": 0.677
+    },
+    {
+      "image": "IMG_6864.png",
+      "bottle": "Jack Daniel's Tennessee Honey",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6866.png",
+      "bottle": "Johnnie Walker Black Label",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6868.png",
+      "bottle": "Jägermeister",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6869.png",
+      "bottle": "Gordon's London Dry Gin",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6870.png",
+      "bottle": "Cyprus Brandy",
+      "score": 0.897
+    },
+    {
+      "image": "IMG_6871.png",
+      "bottle": "Holloway's Dry Gin",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6872.png",
+      "bottle": "Label 5",
+      "score": 0.5
+    },
+    {
+      "image": "IMG_6875.png",
+      "bottle": "Pechery Matcha & Pistachios",
+      "score": 0.794
+    },
+    {
+      "image": "IMG_6876.png",
+      "bottle": "Smirnoff",
+      "score": 0.552
+    },
+    {
+      "image": "IMG_6877.png",
+      "bottle": "Baileys Irish Cream",
+      "score": 0.745
+    },
+    {
+      "image": "IMG_6879.png",
+      "bottle": "Royal Whisky",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6880.png",
+      "bottle": "Absolut Vodka",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6881.png",
+      "bottle": "Absolut Mandrin",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6882.png",
+      "bottle": "Absolut Citron",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6883.png",
+      "bottle": "Montserrat Licor Herbes de Montserrat",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6884.png",
+      "bottle": "Sierra Agave Azul Blanco",
+      "score": 0.756
+    },
+    {
+      "image": "IMG_6886.png",
+      "bottle": "Gorlovka Vodka",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6887.png",
+      "bottle": "Hel Der Arbeit Kräuterlikör",
+      "score": 0.982
+    },
+    {
+      "image": "IMG_6888.png",
+      "bottle": "Johnnie Walker Red Label",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6890.png",
+      "bottle": "Whitley Neill London Dry Gin",
+      "score": 0.618
+    },
+    {
+      "image": "IMG_6891.png",
+      "bottle": "Grey Goose",
+      "score": 0.769
+    },
+    {
+      "image": "IMG_6892.png",
+      "bottle": "Bacardi Carta Blanca",
+      "score": 0.95
+    },
+    {
+      "image": "IMG_6893.png",
+      "bottle": "Puerto de Indias Black Edition Dry Gin",
+      "score": 0.687
+    },
+    {
+      "image": "IMG_6894.png",
+      "bottle": "Beefeater London Dry Gin",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6895.png",
+      "bottle": "Gibson's London Dry Gin",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6896.png",
+      "bottle": "Drumshanbo Gunpowder Irisih Gin",
+      "score": 0.968
+    },
+    {
+      "image": "IMG_6897.png",
+      "bottle": "Chivas Regal Aged 12 Years",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6898.png",
+      "bottle": "The Famous Grouse",
+      "score": 0.607
+    },
+    {
+      "image": "IMG_6900.png",
+      "bottle": "Whitley Neill Rhubarb & Ginger",
+      "score": 0.938
+    },
+    {
+      "image": "IMG_6901.png",
+      "bottle": "Nemrut Rakı",
+      "score": 0.909
+    },
+    {
+      "image": "IMG_6902.png",
+      "bottle": "Wodka Gorbatschow",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6904.png",
+      "bottle": "Dewar's White Label",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6905.png",
+      "bottle": "Gewürzerei Basil Smash",
+      "score": 0.595
+    },
+    {
+      "image": "IMG_6907.png",
+      "bottle": "Euphoria Cannabis Absinth",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6908.png",
+      "bottle": "Alpen Schnaps Steinbeisser",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6909.png",
+      "bottle": "The Duke Munich Dry Gin",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6910.png",
+      "bottle": "Klosterbrennerei Apfelstrudel",
+      "score": 0.59
+    },
+    {
+      "image": "IMG_6911.png",
+      "bottle": "Ficken Liquors",
+      "score": 1.0
+    },
+    {
+      "image": "IMG_6912.png",
+      "bottle": "Patrón Silver",
+      "score": 0.765
+    },
+    {
+      "image": "IMG_6913.png",
+      "bottle": "Gewürzerei Pistazien Sahne",
+      "score": 0.897
+    },
+    {
+      "image": "IMG_6914.png",
+      "bottle": "Jack Daniel's Tennessee Apple",
+      "score": 1.0
+    }
+  ],
+  "unmatched": [
+    {
+      "image": "IMG_6787.png",
+      "identified": "ΒΑΡΒΑΓΙΑΝΝΗ Ouzo Plomariou",
+      "best_match": "Ouzo Exotic Fruits",
+      "score": 0.364,
+      "reason": "low_confidence"
+    },
+    {
+      "image": "IMG_6788.png",
+      "identified": "Cutty Sark Blended Scotch Whisky",
+      "best_match": "Cutty Sark",
+      "score": 0.476,
+      "reason": "low_confidence"
+    },
+    {
+      "image": "IMG_6793.png",
+      "identified": "Glenfiddich Single Malt Scotch Whisky Perpetual Collection VAT 01",
+      "best_match": "Pechery Matcha & Pistachios",
+      "score": 0.304,
+      "reason": "low_confidence"
+    },
+    {
+      "image": "IMG_6807.png",
+      "identified": "Fireball Red Hot Cinnamon Whisky Liqueur",
+      "best_match": "Torboli Crema di Nocciole",
+      "score": 0.4,
+      "reason": "low_confidence"
+    },
+    {
+      "image": "IMG_6808.png",
+      "identified": "MyRaki Τσικουδιά Κρήτης",
+      "best_match": "MyRaki",
+      "score": 0.414,
+      "reason": "low_confidence"
+    },
+    {
+      "image": "IMG_6811.png",
+      "identified": "Zivana LOEL Grape Marc Spirit",
+      "best_match": "Chivas Regal Aged 12 Years",
+      "score": 0.436,
+      "reason": "low_confidence"
+    },
+    {
+      "image": "IMG_6812.png",
+      "identified": "Jim Beam Kentucky Straight Bourbon Whiskey",
+      "best_match": "Sebastian Stroh Williams-Birnen",
+      "score": 0.356,
+      "reason": "low_confidence"
+    },
+    {
+      "image": "IMG_6817.png",
+      "identified": "Beluga Noble Vodka Export",
+      "best_match": "Absolut Vodka",
+      "score": 0.474,
+      "reason": "low_confidence"
+    },
+    {
+      "image": "IMG_6818.png",
+      "identified": "Ballantine's Aged 10 Years Blended Scotch Whisky",
+      "best_match": "Chivas Regal Aged 12 Years",
+      "score": 0.405,
+      "reason": "low_confidence"
+    },
+    {
+      "image": "IMG_6847.png",
+      "identified": "EFE Fresh Grapes Raki",
+      "best_match": "Efe Rakı",
+      "score": 0.483,
+      "reason": "low_confidence"
+    },
+    {
+      "image": "IMG_6854.png",
+      "identified": "Ursel Spring Break Premium Dry Gin",
+      "best_match": "Ursel Premium Dry Gin Heritage",
+      "score": 0.656,
+      "reason": "duplicate (existing: bottle_images_clean/IMG_6853.png)"
+    },
+    {
+      "image": "IMG_6855.png",
+      "identified": "Ursel Heritage Premium Dry Gin",
+      "best_match": "Ursel Premium Dry Gin Heritage",
+      "score": 0.7,
+      "reason": "duplicate (existing: bottle_images_clean/IMG_6853.png)"
+    },
+    {
+      "image": "IMG_6857.png",
+      "identified": "OSA Fine Spirits Fireside Aged 12 Years Blended Malt Scotch Whisky",
+      "best_match": "Chivas Regal Aged 12 Years",
+      "score": 0.413,
+      "reason": "low_confidence"
+    },
+    {
+      "image": "IMG_6858.png",
+      "identified": "OSA Fine Spirits Twilight Aged 10 Years Blended Malt Scotch Whisky",
+      "best_match": "Chivas Regal Aged 12 Years",
+      "score": 0.37,
+      "reason": "low_confidence"
+    },
+    {
+      "image": "IMG_6860.png",
+      "identified": "Martini Bianco Vermouth",
+      "best_match": "Martini Bianco Vermouth",
+      "score": 1.0,
+      "reason": "duplicate (existing: bottle_images_clean/IMG_6848.png)"
+    },
+    {
+      "image": "IMG_6861.png",
+      "identified": "Martini Bianco Vermouth",
+      "best_match": "Martini Bianco Vermouth",
+      "score": 1.0,
+      "reason": "duplicate (existing: bottle_images_clean/IMG_6848.png)"
+    },
+    {
+      "image": "IMG_6865.png",
+      "identified": "Jack Daniel's Old No. 7 Tennessee Sour Mash Whiskey",
+      "best_match": "Jack Daniel's Tennessee Honey",
+      "score": 0.675,
+      "reason": "duplicate (existing: bottle_images_clean/IMG_6864.png)"
+    },
+    {
+      "image": "IMG_6867.png",
+      "identified": "Ballantine's Aged 10 Years Blended Scotch Whisky",
+      "best_match": "Chivas Regal Aged 12 Years",
+      "score": 0.405,
+      "reason": "low_confidence"
+    },
+    {
+      "image": "IMG_6873.png",
+      "identified": "Monkey Shoulder The Original Blended Malt Scotch Whisky",
+      "best_match": "Monkey Shoulder",
+      "score": 0.429,
+      "reason": "low_confidence"
+    },
+    {
+      "image": "IMG_6874.png",
+      "identified": "Jameson Triple Distilled Irish Whiskey",
+      "best_match": "Baileys Irish Cream",
+      "score": 0.456,
+      "reason": "low_confidence"
+    },
+    {
+      "image": "IMG_6878.png",
+      "identified": "Vana Tallinn 40",
+      "best_match": "Vana Tallinn",
+      "score": 0.889,
+      "reason": "duplicate (existing: bottle_images_clean/IMG_6820.png)"
+    },
+    {
+      "image": "IMG_6885.png",
+      "identified": "Cyprus Bitter",
+      "best_match": "Cyprus Bitter",
+      "score": 1.0,
+      "reason": "duplicate (existing: bottle_images_clean/IMG_6836.png)"
+    },
+    {
+      "image": "IMG_6889.png",
+      "identified": "Malibu Original Liqueur",
+      "best_match": "Disaronno Originale",
+      "score": 0.524,
+      "reason": "duplicate (existing: bottle_images_clean/IMG_6827.png)"
+    },
+    {
+      "image": "IMG_6899.png",
+      "identified": "Whitley Neill Distiller's Cut London Dry Gin",
+      "best_match": "Whitley Neill London Dry Gin",
+      "score": 0.778,
+      "reason": "duplicate (existing: bottle_images_clean/IMG_6890.png)"
+    },
+    {
+      "image": "IMG_6906.png",
+      "identified": "Kleiner Feigling Das Original",
+      "best_match": "Kleiner Feigling",
+      "score": 0.711,
+      "reason": "duplicate (existing: bottle_images_clean/IMG_6785.png)"
+    }
+  ]
+}
