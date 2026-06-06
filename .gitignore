@@ -1,6 +1,9 @@
-# Bottle images
+# Bottle images (originals — too large to commit)
 bottle_images/
-bottle_images_clean/
+bottle_images_clean/*.png
+
+# Scripts
+*.py
 
 # General
 .DS_Store
