@@ -20,7 +20,7 @@
   --black: #111111;
   --white: #ffffff;
   --ink: #1a1a1a;
-  --paper: #fffaf0; /* slightly warm to flatter DHL yellow */
+  --paper: #ffffff;
   --muted: #6b7280;
   --card: #ffffff;
   --card-border: #e5e7eb;
@@ -89,9 +89,9 @@ a:focus-visible, button:focus-visible {
 .hero { display:grid; grid-template-columns: 1fr 1fr; gap:2.2rem; align-items:center; padding: 56px 0; }
 @media (max-width: 900px) { .hero{ grid-template-columns: 1fr; } }
 
-h1 { font-size: clamp(1.8rem, 2.8vw + .6rem, 2.8rem); line-height: 1.12; margin: .2rem 0 .6rem; font-weight: 900; letter-spacing:-.3px; }
-h2 { font-size: clamp(1.6rem, 2vw + .5rem, 2.2rem); margin: 2rem 0 1rem; }
-h3 { margin: 1rem 0 .5rem; }
+h1 { font-size: clamp(1.8rem, 2.8vw + .6rem, 2.8rem); line-height: 1.12; margin: .2rem 0 .6rem; font-weight: 900; letter-spacing:-.3px; text-wrap: balance; }
+h2 { font-size: clamp(1.6rem, 2vw + .5rem, 2.2rem); margin: 2rem 0 1rem; text-wrap: balance; }
+h3 { margin: 1rem 0 .5rem; text-wrap: balance; }
 
 .cta-row { display:flex; gap:.75rem; flex-wrap:wrap; margin-top:1rem; }
 .btn { border:2px solid var(--ink); background: var(--dhl-yellow); color:#111; font-weight:900; padding:.7rem 1rem; border-radius:14px; box-shadow: var(--shadow); transition: transform .05s ease-in-out; }
@@ -136,8 +136,14 @@ h3 { margin: 1rem 0 .5rem; }
   margin: -18px -18px 14px;
   letter-spacing: .02em;
 }
-.card-last { grid-column: span 12; }
-@media (max-width: 900px) { .card-last { grid-column: span 12; } }
+.card-last     { grid-column: span 12; }
+.card-featured { grid-column: span 7; }
+.card-secondary{ grid-column: span 5; }
+.card-sm       { grid-column: span 4; }
+.card-upcoming { border-style: dashed; opacity: 0.65; }
+@media (max-width: 900px) {
+  .card-last, .card-featured, .card-secondary, .card-sm { grid-column: span 12; }
+}
 
 .meta { display:flex; gap:.75rem; color:var(--muted); font-size:.95rem; flex-wrap:wrap; }
 .resume-card-inner { display:flex; align-items:center; justify-content:space-between; gap:1rem; }
@@ -165,10 +171,14 @@ footer { padding:40px 0 60px; color: var(--muted); text-align:center; border-top
   position: fixed;
   top: 0; left: 0;
   height: 3px;
-  width: 0%;
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: left;
   background: var(--dhl-red);
   z-index: 100;
-  transition: width .1s linear;
+  transition: transform .1s linear;
+  will-change: transform;
+  pointer-events: none;
 }
 
 /* Van + Beep bubble */
@@ -219,8 +229,7 @@ footer { padding:40px 0 60px; color: var(--muted); text-align:center; border-top
 /* Unified timeline styles (used in Experience & Education columns) */
 .timeline {
   position: relative;
-  padding-left: 1.25rem;                 /* modest indent */
-  border-left: 3px solid var(--dhl-yellow);
+  padding-left: 1.25rem;
 }
 
 .timeline-item { position: relative; margin-bottom: 1rem; }
@@ -304,9 +313,7 @@ footer { padding:40px 0 60px; color: var(--muted); text-align:center; border-top
 }
 .about-label {
   font-weight: 800;
-  font-size: .7rem;
-  text-transform: uppercase;
-  letter-spacing: .05em;
+  font-size: .75rem;
   color: var(--dhl-red);
 }
 @media (max-width: 600px) {

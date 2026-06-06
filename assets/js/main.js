@@ -3,6 +3,31 @@
 // Year in footer
 document.getElementById('y').textContent = new Date().getFullYear();
 
+// Scroll progress bar
+const scrollProgress = document.getElementById('scroll-progress');
+if (scrollProgress) {
+  window.addEventListener('scroll', () => {
+    const total = document.documentElement.scrollHeight - window.innerHeight;
+    scrollProgress.style.transform = `scaleX(${total > 0 ? window.scrollY / total : 0})`;
+  }, { passive: true });
+}
+
+// Active nav section highlighting
+(function () {
+  const sections = document.querySelectorAll('main section[id], main .vitae[id]');
+  const navLinks = document.querySelectorAll('nav a[href^="#"]');
+  if (!sections.length || !navLinks.length) return;
+  const obs = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      navLinks.forEach(a => a.classList.remove('nav-active'));
+      const active = document.querySelector(`nav a[href="#${entry.target.id}"]`);
+      if (active) active.classList.add('nav-active');
+    });
+  }, { threshold: 0.25, rootMargin: '-10% 0px -65% 0px' });
+  sections.forEach(s => obs.observe(s));
+}());
+
 // Entrance animations
 if (window.matchMedia('(prefers-reduced-motion: no-preference)').matches) {
   const targets = document.querySelectorAll('.card, .timeline-item, .pubs li, .about-list li');
