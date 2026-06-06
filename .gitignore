@@ -1,3 +1,7 @@
+# Bottle images
+bottle_images/
+bottle_images_clean/
+
 # General
 .DS_Store
 .AppleDouble
