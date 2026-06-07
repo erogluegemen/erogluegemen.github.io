@@ -1,0 +1,1034 @@
+[
+  {
+    "name": "Absolut Citron",
+    "country": "Sweden",
+    "flag": "🇸🇪",
+    "type": "Flavoured Vodka",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6882.webp"
+  },
+  {
+    "name": "Absolut Mandrin",
+    "country": "Sweden",
+    "flag": "🇸🇪",
+    "type": "Flavoured Vodka",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6881.webp"
+  },
+  {
+    "name": "Absolut Vodka",
+    "country": "Sweden",
+    "flag": "🇸🇪",
+    "type": "Vodka",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6880.webp"
+  },
+  {
+    "name": "Alpen Schnaps Steinbeisser",
+    "country": "Austria",
+    "flag": "🇦🇹",
+    "type": "Schnapps",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6908.webp"
+  },
+  {
+    "name": "Antica Sambuca",
+    "country": "Italy",
+    "flag": "🇮🇹",
+    "type": "Sambuca",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6828.webp"
+  },
+  {
+    "name": "AU Vodka Blue Raspberry",
+    "country": "Wales",
+    "flag": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+    "type": "Flavoured Vodka",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6830.webp"
+  },
+  {
+    "name": "Bacardi Carta Blanca",
+    "country": "Cuba",
+    "flag": "🇨🇺",
+    "type": "White Rum",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6892.webp"
+  },
+  {
+    "name": "Baileys Irish Cream",
+    "country": "Ireland",
+    "flag": "🇮🇪",
+    "type": "Irish Cream",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6877.webp"
+  },
+  {
+    "name": "Ballantine's",
+    "country": "Scotland",
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "type": "Blended Scotch Whisky",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6818.webp"
+  },
+  {
+    "name": "Barceló Añejo",
+    "country": "Dominican Rep.",
+    "flag": "🇩🇴",
+    "type": "Aged Rum",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6805.webp"
+  },
+  {
+    "name": "Beefeater London Dry Gin",
+    "country": "England",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "type": "London Dry Gin",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6894.webp"
+  },
+  {
+    "name": "Beluga",
+    "country": "Russia",
+    "flag": "🇷🇺",
+    "type": "Vodka",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6817.webp"
+  },
+  {
+    "name": "Berliner Luft",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Peppermint Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6804.webp"
+  },
+  {
+    "name": "Bombay Sapphire",
+    "country": "England",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "type": "London Dry Gin",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6890.webp"
+  },
+  {
+    "name": "Brockenhexen Flugbenzin",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Herbal Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6831.webp"
+  },
+  {
+    "name": "Campari",
+    "country": "Italy",
+    "flag": "🇮🇹",
+    "type": "Bitter Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6836.webp"
+  },
+  {
+    "name": "Chivas Regal Aged 12 Years",
+    "country": "Scotland",
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "type": "Blended Scotch Whisky",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6897.webp"
+  },
+  {
+    "name": "Cinzano Bianco",
+    "country": "Italy",
+    "flag": "🇮🇹",
+    "type": "Vermouth",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6848.webp"
+  },
+  {
+    "name": "Clubhouse Fireside",
+    "country": "Scotland",
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "type": "Blended Malt Scotch Whisky",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6857.webp"
+  },
+  {
+    "name": "Clubhouse Signature Blend",
+    "country": "Scotland",
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "type": "Blended Scotch Whisky",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6797.webp"
+  },
+  {
+    "name": "Clubhouse Twilight",
+    "country": "Scotland",
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "type": "Blended Malt Scotch Whisky",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6858.webp"
+  },
+  {
+    "name": "Cointreau",
+    "country": "France",
+    "flag": "🇫🇷",
+    "type": "Orange Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6833.webp"
+  },
+  {
+    "name": "Cutty Sark",
+    "country": "Scotland",
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "type": "Blended Scotch Whisky",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6788.webp"
+  },
+  {
+    "name": "Cyprus Bitter",
+    "country": "Cyprus",
+    "flag": "🇨🇾",
+    "type": "Bitter Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6885.webp"
+  },
+  {
+    "name": "Cyprus Brandy",
+    "country": "Cyprus",
+    "flag": "🇨🇾",
+    "type": "Brandy",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6870.webp"
+  },
+  {
+    "name": "Danzka Apple",
+    "country": "Denmark",
+    "flag": "🇩🇰",
+    "type": "Vodka",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6850.webp"
+  },
+  {
+    "name": "Danzka Citrus",
+    "country": "Denmark",
+    "flag": "🇩🇰",
+    "type": "Vodka",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6849.webp"
+  },
+  {
+    "name": "Danzka Cranraz",
+    "country": "Denmark",
+    "flag": "🇩🇰",
+    "type": "Vodka",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6852.webp"
+  },
+  {
+    "name": "Danzka Forty",
+    "country": "Denmark",
+    "flag": "🇩🇰",
+    "type": "Vodka",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6851.webp"
+  },
+  {
+    "name": "Der Luchs Sommer Gin",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Gin",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6845.webp"
+  },
+  {
+    "name": "Dewar's White Label",
+    "country": "Scotland",
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "type": "Blended Scotch Whisky",
+    "opened": true,
+    "image": "bottle_images_clean/IMG_6904.webp"
+  },
+  {
+    "name": "Disaronno Originale",
+    "country": "Italy",
+    "flag": "🇮🇹",
+    "type": "Amaretto",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6827.webp"
+  },
+  {
+    "name": "Drumshanbo Gunpowder California Orange",
+    "country": "Ireland",
+    "flag": "🇮🇪",
+    "type": "Irish Gin",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6838.webp"
+  },
+  {
+    "name": "Drumshanbo Gunpowder Irisih Gin",
+    "country": "Ireland",
+    "flag": "🇮🇪",
+    "type": "Irish Gin",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6896.webp"
+  },
+  {
+    "name": "Drumshanbo Gunpowder Sardinian Citrus",
+    "country": "Ireland",
+    "flag": "🇮🇪",
+    "type": "Irish Gin",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6837.webp"
+  },
+  {
+    "name": "Efe Rakı",
+    "country": "Turkey",
+    "flag": "🇹🇷",
+    "type": "Rakı",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6847.webp"
+  },
+  {
+    "name": "Engine Organic Gin",
+    "country": "Italy",
+    "flag": "🇮🇹",
+    "type": "Organic Gin",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6795.webp"
+  },
+  {
+    "name": "Euphoria Cannabis Absinth",
+    "country": "Czech Republic",
+    "flag": "🇨🇿",
+    "type": "Absinthe",
+    "opened": true,
+    "image": "bottle_images_clean/IMG_6907.webp"
+  },
+  {
+    "name": "Ficken Liquors",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Fig Liqueur",
+    "opened": true,
+    "image": "bottle_images_clean/IMG_6911.webp"
+  },
+  {
+    "name": "Finlandia",
+    "country": "Finland",
+    "flag": "🇫🇮",
+    "type": "Vodka",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6799.webp"
+  },
+  {
+    "name": "Fireball",
+    "country": "Canada",
+    "flag": "🇨🇦",
+    "type": "Cinnamon Whisky Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6807.webp"
+  },
+  {
+    "name": "Flügel",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Schnapps Shot",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6800.webp"
+  },
+  {
+    "name": "Gewürzerei Basil Smash",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Gin",
+    "opened": true,
+    "image": "bottle_images_clean/IMG_6905.webp"
+  },
+  {
+    "name": "Gewürzerei Pistazien Sahne",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Pistachio Cream Liqueur",
+    "opened": true,
+    "image": "bottle_images_clean/IMG_6913.webp"
+  },
+  {
+    "name": "Gibson's London Dry Gin",
+    "country": "France",
+    "flag": "🇫🇷",
+    "type": "Gin",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6895.webp"
+  },
+  {
+    "name": "Gibson's Pink Gin",
+    "country": "France",
+    "flag": "🇫🇷",
+    "type": "Pink Gin",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6792.webp"
+  },
+  {
+    "name": "Glenfiddich",
+    "country": "Scotland",
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "type": "Single Malt Scotch Whisky",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6793.webp"
+  },
+  {
+    "name": "Gordon's London Dry Gin",
+    "country": "England",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "type": "London Dry Gin",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6869.webp"
+  },
+  {
+    "name": "Gorlovka Vodka",
+    "country": "Cyprus",
+    "flag": "🇨🇾",
+    "type": "Vodka",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6886.webp"
+  },
+  {
+    "name": "Grey Goose",
+    "country": "France",
+    "flag": "🇫🇷",
+    "type": "Vodka",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6891.webp"
+  },
+  {
+    "name": "Happy Gin",
+    "country": "Belgium",
+    "flag": "🇧🇪",
+    "type": "Gin",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6829.webp"
+  },
+  {
+    "name": "Havana Club",
+    "country": "Cuba",
+    "flag": "🇨🇺",
+    "type": "Cuban Rum",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6846.webp"
+  },
+  {
+    "name": "Hel Der Arbeit Kräuterlikör",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Herbal Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6887.webp"
+  },
+  {
+    "name": "Hendrick's Gin",
+    "country": "Scotland",
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "type": "Gin",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6782.webp"
+  },
+  {
+    "name": "Holloway's Dry Gin",
+    "country": "Cyprus",
+    "flag": "🇨🇾",
+    "type": "Dry Gin",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6871.webp"
+  },
+  {
+    "name": "Jack Daniel's",
+    "country": "USA",
+    "flag": "🇺🇸",
+    "type": "Whiskey",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6865.webp"
+  },
+  {
+    "name": "Jack Daniel's Tennessee Apple",
+    "country": "USA",
+    "flag": "🇺🇸",
+    "type": "Apple Liqueur",
+    "opened": true,
+    "image": "bottle_images_clean/IMG_6914.webp"
+  },
+  {
+    "name": "Jack Daniel's Tennessee Honey",
+    "country": "USA",
+    "flag": "🇺🇸",
+    "type": "Honey Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6864.webp"
+  },
+  {
+    "name": "Jägermeister",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Herbal Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6868.webp"
+  },
+  {
+    "name": "Jameson",
+    "country": "Ireland",
+    "flag": "🇮🇪",
+    "type": "Irish Whiskey",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6874.webp"
+  },
+  {
+    "name": "Jim Beam",
+    "country": "USA",
+    "flag": "🇺🇸",
+    "type": "Bourbon Whiskey",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6812.webp"
+  },
+  {
+    "name": "Johnnie Walker Black Label",
+    "country": "Scotland",
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "type": "Blended Scotch Whisky",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6866.webp"
+  },
+  {
+    "name": "Johnnie Walker Red Label",
+    "country": "Scotland",
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "type": "Blended Scotch Whisky",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6888.webp"
+  },
+  {
+    "name": "Kleiner Feigling",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Fig Liqueur",
+    "opened": true,
+    "image": "bottle_images_clean/IMG_6906.webp"
+  },
+  {
+    "name": "Klopf Mich Cream",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Cream Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6784.webp"
+  },
+  {
+    "name": "Klopf Mich Feige",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Fig Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6785.webp"
+  },
+  {
+    "name": "Klopf Mich Pflaumchen",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Plum Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6783.webp"
+  },
+  {
+    "name": "Klopf Mich Sauerkirsch",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Sour Cherry Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6786.webp"
+  },
+  {
+    "name": "Klosterbrennerei Apfelstrudel",
+    "country": "Austria",
+    "flag": "🇦🇹",
+    "type": "Apple Liqueur",
+    "opened": true,
+    "image": "bottle_images_clean/IMG_6910.webp"
+  },
+  {
+    "name": "Koskenkorva",
+    "country": "Finland",
+    "flag": "🇫🇮",
+    "type": "Vodka",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6810.webp"
+  },
+  {
+    "name": "Label 5",
+    "country": "France",
+    "flag": "🇫🇷",
+    "type": "Blended Scotch Whisky",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6872.webp"
+  },
+  {
+    "name": "Leibwächter Kräuter Bitter",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Herbal Bitter",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6814.webp"
+  },
+  {
+    "name": "Licor de Ginja Mariquinhas",
+    "country": "Portugal",
+    "flag": "🇵🇹",
+    "type": "Sour Cherry Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6821.webp"
+  },
+  {
+    "name": "Malibu",
+    "country": "Barbados",
+    "flag": "🇧🇧",
+    "type": "Coconut Rum Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6889.webp"
+  },
+  {
+    "name": "Martini Bianco Vermouth",
+    "country": "Italy",
+    "flag": "🇮🇹",
+    "type": "Vermouth",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6860.webp"
+  },
+  {
+    "name": "Martini L'aperitivo Bianco Vermouth",
+    "country": "Italy",
+    "flag": "🇮🇹",
+    "type": "Vermouth",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6861.webp"
+  },
+  {
+    "name": "Martini Rosso Vermouth",
+    "country": "Italy",
+    "flag": "🇮🇹",
+    "type": "Vermouth",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6840.webp"
+  },
+  {
+    "name": "Mary White Vodka",
+    "country": "Belgium",
+    "flag": "🇧🇪",
+    "type": "Vodka",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6803.webp"
+  },
+  {
+    "name": "Meukow VS",
+    "country": "France",
+    "flag": "🇫🇷",
+    "type": "Cognac",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6806.webp"
+  },
+  {
+    "name": "Monkey Shoulder",
+    "country": "Scotland",
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "type": "Blended Scotch Whisky",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6873.webp"
+  },
+  {
+    "name": "Montserrat Gran Licor Aromes del Montserrat",
+    "country": "Spain",
+    "flag": "🇪🇸",
+    "type": "Herbal Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6859.webp"
+  },
+  {
+    "name": "Montserrat Licor Herbes de Montserrat",
+    "country": "Spain",
+    "flag": "🇪🇸",
+    "type": "Herbal Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6883.webp"
+  },
+  {
+    "name": "Mozart Chocolate Cream",
+    "country": "Austria",
+    "flag": "🇦🇹",
+    "type": "Chocolate Cream Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6802.webp"
+  },
+  {
+    "name": "MyRaki",
+    "country": "Greece",
+    "flag": "🇬🇷",
+    "type": "Raki",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6808.webp"
+  },
+  {
+    "name": "Nannerl Kiwi",
+    "country": "Austria",
+    "flag": "🇦🇹",
+    "type": "Kiwi Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6816.webp"
+  },
+  {
+    "name": "Nannerl Salzburg Kaffee",
+    "country": "Austria",
+    "flag": "🇦🇹",
+    "type": "Coffee Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6813.webp"
+  },
+  {
+    "name": "Nemiroff De Luxe",
+    "country": "Ukraine",
+    "flag": "🇺🇦",
+    "type": "Vodka",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6819.webp"
+  },
+  {
+    "name": "Nemiroff Honey Pepper",
+    "country": "Ukraine",
+    "flag": "🇺🇦",
+    "type": "Flavoured Vodka",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6844.webp"
+  },
+  {
+    "name": "Nemrut Rakı",
+    "country": "Cyprus",
+    "flag": "🇨🇾",
+    "type": "Rakı",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6901.webp"
+  },
+  {
+    "name": "Ouzo Exotic Fruits",
+    "country": "Greece",
+    "flag": "🇬🇷",
+    "type": "Ouzo",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6790.webp"
+  },
+  {
+    "name": "Panchitos Tequila Blanco",
+    "country": "Mexico",
+    "flag": "🇲🇽",
+    "type": "Tequila Blanco",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6809.webp"
+  },
+  {
+    "name": "Patrón Silver",
+    "country": "Mexico",
+    "flag": "🇲🇽",
+    "type": "Tequila",
+    "opened": true,
+    "image": "bottle_images_clean/IMG_6912.webp"
+  },
+  {
+    "name": "Pechery Matcha & Pistachios",
+    "country": "Spain",
+    "flag": "🇪🇸",
+    "type": "Cream Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6875.webp"
+  },
+  {
+    "name": "Platzhörsch Vanillige Ricke",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Vanilla Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6842.webp"
+  },
+  {
+    "name": "Puerto de Indias Black Edition Dry Gin",
+    "country": "Spain",
+    "flag": "🇪🇸",
+    "type": "Dry Gin",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6893.webp"
+  },
+  {
+    "name": "Reyka Vodka",
+    "country": "Iceland",
+    "flag": "🇮🇸",
+    "type": "Vodka",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6796.webp"
+  },
+  {
+    "name": "Rossi D'asiago Limoncello",
+    "country": "Italy",
+    "flag": "🇮🇹",
+    "type": "Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6856.webp"
+  },
+  {
+    "name": "Royal Whisky",
+    "country": "Cyprus",
+    "flag": "🇨🇾",
+    "type": "Whisky",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6879.webp"
+  },
+  {
+    "name": "Saint Brendan's Irish Cream",
+    "country": "Ireland",
+    "flag": "🇮🇪",
+    "type": "Irish Cream",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6834.webp"
+  },
+  {
+    "name": "Salzkammergut Zirben Schnaps",
+    "country": "Austria",
+    "flag": "🇦🇹",
+    "type": "Stone Pine Schnapps",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6791.webp"
+  },
+  {
+    "name": "Sangria Barcelona",
+    "country": "Spain",
+    "flag": "🇪🇸",
+    "type": "Sangria",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6801.webp"
+  },
+  {
+    "name": "Schwartzhog Kräuter",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Herbal Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6789.webp"
+  },
+  {
+    "name": "Sebastian Stroh Williams-Birnen",
+    "country": "Austria",
+    "flag": "🇦🇹",
+    "type": "Pear Schnapps",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6832.webp"
+  },
+  {
+    "name": "Sierra Agave Azul Blanco",
+    "country": "Mexico",
+    "flag": "🇲🇽",
+    "type": "Tequila",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6884.webp"
+  },
+  {
+    "name": "Sierra Agave Azul Reposado",
+    "country": "Mexico",
+    "flag": "🇲🇽",
+    "type": "Tequila",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6862.webp"
+  },
+  {
+    "name": "Sierra Tropical Chilli",
+    "country": "Mexico",
+    "flag": "🇲🇽",
+    "type": "Tequila",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6863.webp"
+  },
+  {
+    "name": "Smirnoff",
+    "country": "Russia",
+    "flag": "🇷🇺",
+    "type": "Vodka",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6876.webp"
+  },
+  {
+    "name": "Snaps Forest Fruit",
+    "country": "Italy",
+    "flag": "🇮🇹",
+    "type": "Fruit Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6843.webp"
+  },
+  {
+    "name": "The Duke Munich Dry Gin",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Dry Gin",
+    "opened": true,
+    "image": "bottle_images_clean/IMG_6909.webp"
+  },
+  {
+    "name": "The Famous Grouse",
+    "country": "Scotland",
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "type": "Blended Scotch Whisky",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6898.webp"
+  },
+  {
+    "name": "Torboli Crema di Fragola",
+    "country": "Italy",
+    "flag": "🇮🇹",
+    "type": "Strawberry Cream Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6824.webp"
+  },
+  {
+    "name": "Torboli Crema di Limoncello",
+    "country": "Italy",
+    "flag": "🇮🇹",
+    "type": "Limoncello Cream Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6826.webp"
+  },
+  {
+    "name": "Torboli Crema di Melone",
+    "country": "Italy",
+    "flag": "🇮🇹",
+    "type": "Melon Cream Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6822.webp"
+  },
+  {
+    "name": "Torboli Crema di Nocciole",
+    "country": "Italy",
+    "flag": "🇮🇹",
+    "type": "Hazelnut Cream Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6823.webp"
+  },
+  {
+    "name": "Torboli Crema di Pistacchio",
+    "country": "Italy",
+    "flag": "🇮🇹",
+    "type": "Pistachio Cream Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6825.webp"
+  },
+  {
+    "name": "Unicum Zwack",
+    "country": "Hungary",
+    "flag": "🇭🇺",
+    "type": "Herbal Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6794.webp"
+  },
+  {
+    "name": "Ursel Premium Dry Gin Dark Forest",
+    "country": "Belgium",
+    "flag": "🇧🇪",
+    "type": "Dry Gin",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6853.webp"
+  },
+  {
+    "name": "Ursel Premium Dry Gin Heritage",
+    "country": "Belgium",
+    "flag": "🇧🇪",
+    "type": "Dry Gin",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6855.webp"
+  },
+  {
+    "name": "Ursel Premium Dry Gin Spring Break",
+    "country": "Belgium",
+    "flag": "🇧🇪",
+    "type": "Dry Gin",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6854.webp"
+  },
+  {
+    "name": "Vana Tallinn",
+    "country": "Estonia",
+    "flag": "🇪🇪",
+    "type": "Rum Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6820.webp"
+  },
+  {
+    "name": "Varvayannis Ouzo",
+    "country": "Greece",
+    "flag": "🇬🇷",
+    "type": "Ouzo",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6787.webp"
+  },
+  {
+    "name": "Vecchio Amaro del Capo",
+    "country": "Italy",
+    "flag": "🇮🇹",
+    "type": "Amaro",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6841.webp"
+  },
+  {
+    "name": "Wander-Trunk Kräuterbitter",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Herbal Bitter",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6815.webp"
+  },
+  {
+    "name": "Weihnachts-Trunk Kräuterlikör",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Herbal Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6798.webp"
+  },
+  {
+    "name": "Whitley Neill London Dry Gin",
+    "country": "England",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "type": "Gin",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6899.webp"
+  },
+  {
+    "name": "Whitley Neill Rhubarb & Ginger",
+    "country": "England",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "type": "Gin",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6900.webp"
+  },
+  {
+    "name": "Wodka Gorbatschow",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Vodka",
+    "opened": true,
+    "image": "bottle_images_clean/IMG_6902.webp"
+  },
+  {
+    "name": "Yeni Rakı",
+    "country": "Turkey",
+    "flag": "🇹🇷",
+    "type": "Rakı",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6839.webp"
+  },
+  {
+    "name": "Zivana",
+    "country": "Cyprus",
+    "flag": "🇨🇾",
+    "type": "Grape Marc Spirit",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6811.webp"
+  }
+]

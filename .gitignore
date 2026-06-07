@@ -5,6 +5,14 @@ bottle_images_clean/*.png
 # Scripts
 *.py
 
+# Node / build
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Impeccable critique snapshots
+.impeccable/
+
 # General
 .DS_Store
 .AppleDouble
