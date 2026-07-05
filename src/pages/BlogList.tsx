@@ -1,14 +1,19 @@
-import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import { posts } from '@/data/posts';
 import { cn } from '@/lib/utils';
+import { canonicalUrl } from '@/lib/seo';
 
 export default function BlogList() {
-  useEffect(() => { document.title = 'Blog — Egemen Eroglu'; }, []);
-
   return (
     <div className="w-full max-w-[1120px] mx-auto px-4 pb-20">
+      <Helmet>
+        <title>Blog — Egemen Eroglu</title>
+        <meta name="description" content="Short notes, stray thoughts, and the occasional technical write-up from Egemen Eroglu." />
+        <link rel="canonical" href={canonicalUrl('/blog')} />
+        <meta property="og:url" content={canonicalUrl('/blog')} />
+      </Helmet>
       <motion.div
         initial={{ opacity: 0, y: 18 }}
         animate={{ opacity: 1, y: 0 }}

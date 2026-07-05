@@ -1,7 +1,9 @@
 import { useEffect, useState, useMemo } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { motion, AnimatePresence } from 'framer-motion';
 import bottlesRaw from '@/data/bottles.json';
 import { cn } from '@/lib/utils';
+import { canonicalUrl } from '@/lib/seo';
 
 interface Bottle {
   name: string;
@@ -26,8 +28,6 @@ export default function Collection() {
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [selected, setSelected] = useState<Bottle | null>(null);
 
-  useEffect(() => { document.title = 'Liquid Assets — Egemen Eroglu'; }, []);
-
   useEffect(() => {
     if (!selected) return;
     const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setSelected(null); };
@@ -49,6 +49,12 @@ export default function Collection() {
 
   return (
     <div className="w-full max-w-[1120px] mx-auto px-4 pb-20">
+      <Helmet>
+        <title>Liquid Assets — Egemen Eroglu</title>
+        <meta name="description" content="Miniature alcohol bottles collected from around the world — a personal collection with origin stories." />
+        <link rel="canonical" href={canonicalUrl('/collection')} />
+        <meta property="og:url" content={canonicalUrl('/collection')} />
+      </Helmet>
       <motion.div
         initial={{ opacity: 0, y: 18 }}
         animate={{ opacity: 1, y: 0 }}

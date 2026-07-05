@@ -2,21 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://erogluegemen.com/</loc>
+    <lastmod>2026-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://erogluegemen.com/blog.html</loc>
+    <loc>https://erogluegemen.com/blog</loc>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://erogluegemen.com/blog/shipping-ml-to-production.html</loc>
+    <loc>https://erogluegemen.com/blog/kl-divergence-explained</loc>
+    <lastmod>2026-07-05</lastmod>
     <changefreq>never</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://erogluegemen.com/collection.html</loc>
+    <loc>https://erogluegemen.com/collection</loc>
+    <lastmod>2026-06-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

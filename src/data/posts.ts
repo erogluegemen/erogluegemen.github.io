@@ -9,11 +9,11 @@ export interface Post {
 
 export const posts: Post[] = [
   {
-    slug: 'shipping-ml-to-production',
-    title: 'What nobody tells you about shipping ML to production',
-    date: '28 April 2026',
-    readTime: '2 min read',
+    slug: 'kl-divergence-explained',
+    title: 'KL Divergence Explained',
+    date: '5 July 2026',
+    readTime: '5 min read',
     tags: ['technical'],
-    excerpt: 'The gap between a model that works on your laptop and one that runs reliably in a live logistics system is wider than most people expect.',
+    excerpt: "Entropy, KL divergence, and why forward vs reverse KL determines whether a model collapses onto one mode or spreads across all of them. First post in a series building up to the ELBO.",
   },
 ];

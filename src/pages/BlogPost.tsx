@@ -1,31 +1,27 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { motion } from 'framer-motion';
 import ReactMarkdown from 'react-markdown';
 import { posts } from '@/data/posts';
 import { cn } from '@/lib/utils';
+import { canonicalUrl } from '@/lib/seo';
 
-const markdownFiles = import.meta.glob('../data/posts/*.md', { query: '?raw', import: 'default' }) as Record<string, () => Promise<string>>;
+const markdownFiles = import.meta.glob('../data/posts/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>;
 
 export default function BlogPost() {
   const { slug } = useParams<{ slug: string }>();
   const post = posts.find(p => p.slug === slug);
   const [copied, setCopied] = useState(false);
-  const [content, setContent] = useState('');
-
-  useEffect(() => {
-    if (!slug) return;
-    const loader = markdownFiles[`../data/posts/${slug}.md`];
-    if (loader) loader().then(setContent);
-  }, [slug]);
-
-  useEffect(() => {
-    if (post) document.title = `${post.title} — Egemen Eroglu`;
-  }, [post]);
+  const content = slug ? markdownFiles[`../data/posts/${slug}.md`] ?? '' : '';
 
   if (!post) {
     return (
       <div className="w-full max-w-[1120px] mx-auto px-4 py-20 text-center">
+        <Helmet>
+          <title>Post not found — Egemen Eroglu</title>
+          <meta name="robots" content="noindex" />
+        </Helmet>
         <h1 className="text-2xl font-black mb-3">Post not found</h1>
         <Link to="/blog" className="font-bold text-dhl-red">← Back to Blog</Link>
       </div>
@@ -41,6 +37,12 @@ export default function BlogPost() {
 
   return (
     <div className="w-full max-w-[1120px] mx-auto px-4 pb-20">
+      <Helmet>
+        <title>{`${post.title} — Egemen Eroglu`}</title>
+        <meta name="description" content={post.excerpt} />
+        <link rel="canonical" href={canonicalUrl(`/blog/${post.slug}`)} />
+        <meta property="og:url" content={canonicalUrl(`/blog/${post.slug}`)} />
+      </Helmet>
       <div className="max-w-[680px] mx-auto pt-10">
         <motion.div initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ type: 'spring', damping: 22 }}>
           <Link to="/blog" className="inline-block mb-8 font-bold text-sm text-dhl-red no-underline hover:underline">
@@ -83,7 +85,9 @@ export default function BlogPost() {
             [&_pre]:bg-ink [&_pre]:text-white [&_pre]:p-4 [&_pre]:rounded-xl [&_pre]:overflow-x-auto [&_pre]:mb-5
             [&_blockquote]:border-l-4 [&_blockquote]:border-dhl-yellow [&_blockquote]:pl-4 [&_blockquote]:italic [&_blockquote]:text-muted [&_blockquote]:mb-5
             [&_a]:text-dhl-red [&_a]:font-bold [&_a]:underline
-            [&_strong]:font-black [&_strong]:text-ink">
+            [&_strong]:font-black [&_strong]:text-ink
+            [&_img]:max-w-full [&_img]:h-auto [&_img]:rounded-lg [&_img]:mx-auto [&_img]:block [&_img]:mb-2
+            [&_p:has(img)+p]:text-center [&_p:has(img)+p]:text-muted [&_p:has(img)+p]:text-sm">
             <ReactMarkdown>{content}</ReactMarkdown>
           </div>
 

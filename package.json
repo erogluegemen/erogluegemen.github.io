@@ -6,13 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build && cp dist/index.html dist/404.html",
-    "preview": "vite preview"
+    "postbuild": "react-snap",
+    "preview": "vite preview",
+    "postinstall": "node scripts/patch-react-snap.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",
     "framer-motion": "^11.15.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-helmet-async": "^2.0.5",
     "react-markdown": "^10.1.0",
     "react-router-dom": "^6.28.0",
     "tailwind-merge": "^2.6.0"
@@ -22,8 +25,28 @@
     "@types/react": "^18.3.17",
     "@types/react-dom": "^18.3.5",
     "@vitejs/plugin-react": "^4.3.4",
+    "react-snap": "^1.23.0",
     "tailwindcss": "^4.0.0",
     "typescript": "^5.7.2",
     "vite": "^6.0.5"
+  },
+  "overrides": {
+    "puppeteer": "^24.0.0"
+  },
+  "reactSnap": {
+    "source": "dist",
+    "include": [
+      "/",
+      "/blog",
+      "/collection",
+      "/blog/kl-divergence-explained"
+    ],
+    "viewport": { "width": 1280, "height": 900 },
+    "mobile": false,
+    "headless": "new",
+    "waitFor": 500,
+    "concurrency": 1,
+    "crawl": false,
+    "puppeteerArgs": ["--no-sandbox", "--disable-setuid-sandbox"]
   }
 }

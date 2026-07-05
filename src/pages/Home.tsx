@@ -1,9 +1,11 @@
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Card, CardBody } from '@/components/ui/card';
 import { btnCls } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
+import { canonicalUrl } from '@/lib/seo';
 
 // ─── Animation helpers ────────────────────────────────────────────────────────
 
@@ -105,7 +107,7 @@ function TrackingBar() {
 }
 
 function VanPanel() {
-  const vanRef = useRef<HTMLImageElement>(null);
+  const vanRef = useRef<HTMLVideoElement>(null);
   const [honking, setHonking] = useState(false);
 
   const honk = useCallback(() => {
@@ -127,17 +129,25 @@ function VanPanel() {
   return (
     <div className="flex flex-col items-center">
       <div className="relative inline-block cursor-pointer" onClick={honk}>
-        <img
+        <video
           ref={vanRef}
-          src="/assets/images/dhl-van.gif"
-          alt="DHL Van"
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="auto"
+          poster="/assets/images/dhl-van-poster.png"
+          aria-label="DHL Van"
           className="block mx-auto"
           style={{
             width: 'clamp(220px, 36vw, 400px)',
             height: 'auto',
             filter: 'drop-shadow(0 8px 20px rgba(0,0,0,0.15))',
           }}
-        />
+        >
+          <source src="/assets/images/dhl-van.webm" type="video/webm" />
+          <source src="/assets/images/dhl-van.mp4" type="video/mp4" />
+        </video>
         <AnimatePresence>
           {honking && (
             <motion.div
@@ -537,9 +547,14 @@ function Contact() {
 // ─── Page ─────────────────────────────────────────────────────────────────────
 
 export default function Home() {
-  useEffect(() => { document.title = 'Egemen Eroglu — R&D Specialist | ML Researcher | DHL Express'; }, []);
   return (
     <>
+      <Helmet>
+        <title>Egemen Eroglu — R&D Specialist | ML Researcher | DHL Express</title>
+        <meta name="description" content="Egemen Eroglu — R&D Specialist & ML Researcher at DHL Express. Researching, prototyping, and deploying ML systems for global logistics." />
+        <link rel="canonical" href={canonicalUrl('/')} />
+        <meta property="og:url" content={canonicalUrl('/')} />
+      </Helmet>
       <Hero />
       <Projects />
       <About />
