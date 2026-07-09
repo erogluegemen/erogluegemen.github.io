@@ -249,7 +249,7 @@ const PROJECTS: Project[] = [
     num: '03',
     category: 'AI · LLM · MCP',
     title: 'MCP Customs Portal',
-    desc: 'Automated customs documentation workflows using Model Context Protocol. Deployed internally; specific metrics under NDA.',
+    desc: 'Hybrid RAG + LLM + MCP system for DHL Express Turkey customs operations, resolving unstructured regulatory queries (legislation PDFs) and structured EVRIM/BILGE data via natural language. Incorporates sentiment analysis, topic modeling, and hybrid keyword-semantic retrieval; targeting 90%+ intent classification accuracy, Recall@5 above 85%, and sub-5-second latency, with autonomous handling of 30% of routine call center queries. Patent application filed for the secure RAG + MCP integration component.',
     stack: ['Python', 'MCP', 'LLM'],
     status: 'internal',
     statusLabel: 'Internal',
@@ -258,7 +258,7 @@ const PROJECTS: Project[] = [
     num: '04',
     category: 'RPA · OCR · Automation',
     title: 'Freight Documentation Automation',
-    desc: 'End-to-end automation of freight documentation processing using RPA and AI. Deployed internally; specific metrics under NDA.',
+    desc: 'Automated end-to-end generation of Freight Non-Existence Letters across 150-200 daily inbound shipment requests, cutting per-request processing time from 1.5 minutes to under 15 seconds via a Snowflake → Dataiku → MSSQL → IIS pipeline with full audit logging, freeing 0.5 FTE and extending availability from business hours to 7/24.',
     stack: ['Python', 'RPA', 'OCR'],
     status: 'internal',
     statusLabel: 'Internal',
@@ -267,10 +267,19 @@ const PROJECTS: Project[] = [
     num: '05',
     category: 'OR · EV Infrastructure',
     title: 'EV Charging Station Optimization',
-    desc: 'Ongoing research into optimal placement and scheduling for EV charging infrastructure using operations research and demand forecasting models.',
-    stack: ['Python', 'OR', 'Forecasting'],
+    desc: "Formulated a binary integer linear program for EV fleet allocation across DHL Express Turkey's 3 Istanbul distribution centers, jointly optimizing customer-to-depot and vehicle-to-depot assignment to minimize demand-weighted total distance under capacity constraints. Solved via PuLP/CBC.",
+    stack: ['Python', 'ILP', 'PuLP/CBC'],
     status: 'upcoming',
-    statusLabel: 'In Progress · 2026',
+    statusLabel: 'ISPR 2026 (accepted)',
+  },
+  {
+    num: '06',
+    category: 'NLP · MLOps · ITSM',
+    title: 'ARGUS — ITSM Intelligence Platform',
+    desc: "Built an AI-powered ticket intelligence system for DHL Express Turkey's IT support team, combining a fine-tuned Turkish BERT classifier, a LightGBM SLA-risk scorer with SHAP explainability, and a FAISS-based similar-ticket retrieval engine over historical ServiceNow data. Served through a single FastAPI endpoint with a web UI supporting drag-and-drop ticket parsing and analysis history, to speed up IT operations triage and routing.",
+    stack: ['Python', 'BERT', 'LightGBM', 'FAISS', 'FastAPI'],
+    status: 'internal',
+    statusLabel: 'Internal',
   },
 ];
 
@@ -367,9 +376,12 @@ const ABOUT_FACTS = [
 ];
 
 const SKILLS: { group: string; items: string[] }[] = [
-  { group: 'Data & ML', items: ['Python', 'PyTorch', 'Transformers', 'XGBoost', 'SQL'] },
-  { group: 'Platforms & Pipelines', items: ['Snowflake', 'Dataiku', 'Azure', 'Airflow', 'Docker'] },
-  { group: 'Practices', items: ['R&D', 'Experimentation', 'MLOps', 'Observability'] },
+  { group: 'ML & AI', items: ['PyTorch', 'scikit-learn', 'Transformers', 'XGBoost', 'LightGBM', 'CatBoost', 'Optuna', 'SHAP', 'LIME', 'LLM/RAG pipelines', 'Agent Orchestration (MCP)'] },
+  { group: 'Languages', items: ['Python', 'SQL', 'Unix/Linux Scripting', 'Git'] },
+  { group: 'Cloud & Databases', items: ['Azure (AZ-900, DP-900)', 'Snowflake', 'Databricks', 'MSSQL', 'PostgreSQL', 'MongoDB', 'Teradata'] },
+  { group: 'Data Engineering', items: ['Airflow', 'Kafka', 'Docker', 'Spark', 'Dataiku', 'IBM DataStage'] },
+  { group: 'Frameworks', items: ['Django', 'FastAPI', 'Streamlit', 'Pydantic', 'Pytest'] },
+  { group: 'BI & Monitoring', items: ['PowerBI', 'Tableau', 'Grafana', 'ELK Stack'] },
 ];
 
 function About() {
@@ -467,9 +479,9 @@ function Vitae() {
         <div>
           <h3 className="text-base font-black mb-4">Experience</h3>
           <TimelineItem icon="🚚" title="R&D Specialist · DHL Express" date="Apr 2025 – Present" desc="Patent application filed · AI training for 200+ · DigiForce · RPA leadership" />
-          <TimelineItem icon="🏭" title="Data Engineer · Bosch" date="Oct 2023 – Apr 2025" desc="AI-SCREP · SparkUp / GecoAI" />
-          <TimelineItem icon="🏦" title="DWH & Data Engineer · Halkbank" date="Jul 2023 – Oct 2023" />
+          <TimelineItem icon="🏭" title="Data Scientist · Bosch" date="Oct 2023 – Mar 2025" desc="AI-SCREP · SparkUp / GecoAI" />
           <TimelineItem icon="🧠" title="ML Researcher · Koç University" date="Jul 2023 – Jul 2024" />
+          <TimelineItem icon="🏦" title="DWH & Data Engineer · Halkbank" date="Jul 2023 – Oct 2023" />
           <TimelineItem icon="💻" title="Data Engineer Team Lead · Jeton Digital" date="Mar 2023 – Jun 2023" />
           <TimelineItem icon="💻" title="Data Engineer · Jeton Digital" date="Sep 2022 – Mar 2023" />
           <TimelineItem icon="📊" title="Data Scientist Intern · SmartOpt" date="Jul 2022 – Aug 2022" />
@@ -478,20 +490,30 @@ function Vitae() {
         <div>
           <h3 className="text-base font-black mb-4">Education</h3>
           <TimelineItem icon="🎓" title="MSc Computer Engineering · Bahçeşehir University" date="Oct 2025 – Present" />
-          <TimelineItem icon="🎓" title="Management Information Systems · Istanbul University" date="Oct 2022 – Present" />
           <TimelineItem icon="🎓" title="BSc Computer Engineering · Bahçeşehir University" date="Sep 2020 – Jan 2025" />
         </div>
 
         <div>
           <h3 className="text-base font-black mb-4">Publications</h3>
-          <PubItem title="Simulation Applications in the Logistics Sector: A Systematic Literature Review" venue="YAEM 2025" />
+          <PubItem title="From Detection to Resolution: A Deep Learning Framework for Destination Facility Prediction in Inbound Shipments" venue="INFUS 2026" />
+          <PubItem title="Post-Hoc Explainability for Neural Anomaly Detection in Logistics: An Empirical Comparison of SHAP, LIME, and Integrated Gradients" venue="UBMK 2026" />
+          <PubItem title="Set Covering Problem-Based Location Optimization for Electric Vehicle Charging Stations: A Real Case Study" venue="ISPR 2026" />
+          <PubItem title="AI and Operations Research Applications in Express Air Cargo: A Systematic Literature Review" venue="YAEM 2026" />
+          <PubItem
+            title="Simulation Applications in the Logistics Sector: A Systematic Literature Review"
+            venue="YAEM 2025"
+            href="https://www.researchgate.net/publication/404775234_Simulation_Applications_in_the_Logistics_Sector_A_Systematic_Literature_Review"
+          />
           <PubItem
             title="Predictive Machine Learning Framework for Address Error Detection in Logistics System"
             venue="IEEE UBMK 2025"
             href="https://www.researchgate.net/profile/Egemen-Eroglu-2/publication/396872399_Predictive_Machine_Learning_Framework_for_Address_Error_Detection_in_Logistics_System/links/68fc876a220a341aa15825a5/Predictive-Machine-Learning-Framework-for-Address-Error-Detection-in-Logistics-System.pdf"
           />
-          <PubItem title="From Detection to Resolution: A Deep Learning Framework for Destination Facility Prediction in Inbound Shipments" venue="INFUS 2026" />
-          <PubItem title="EV Charging Station Optimization" venue="ETMS 2026 (coming)" upcoming />
+          <PubItem
+            title="A Data Envelopment Analysis Model for the Efficiency Measurement of Call Center Agents in Logistic Industry"
+            venue="ETMS 2025"
+            href="https://ituyayinevi.itu.edu.tr/docs/librariesprovider59/bildiriler/978-975-561-713-8.pdf?sfvrsn=4f2efed0_2#page=18"
+          />
         </div>
       </div>
     </section>
@@ -531,9 +553,9 @@ function Contact() {
             <CardBody className="flex items-center justify-between gap-4">
               <div>
                 <h3 className="text-base font-black mb-0.5">Resume</h3>
-                <p className="text-sm text-muted mb-0">Updated April 2026.</p>
+                <p className="text-sm text-muted mb-0">Updated July 2026.</p>
               </div>
-              <a href="/assets/pdf/Egemen_Eroglu_CV.pdf" target="_blank" rel="noopener" className={btnCls('default', 'default', 'shrink-0')}>
+              <a href="assets/pdf/EgemenEroglu_CV.pdf" target="_blank" rel="noopener" className={btnCls('default', 'default', 'shrink-0')}>
                 View Resume ↗
               </a>
             </CardBody>
@@ -550,7 +572,7 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>Egemen Eroglu — R&D Specialist | ML Researcher | DHL Express</title>
+        <title>Egemen Eroglu — R&D Specialist | ML Researcher</title>
         <meta name="description" content="Egemen Eroglu — R&D Specialist & ML Researcher at DHL Express. Researching, prototyping, and deploying ML systems for global logistics." />
         <link rel="canonical" href={canonicalUrl('/')} />
         <meta property="og:url" content={canonicalUrl('/')} />
