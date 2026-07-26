@@ -35,28 +35,41 @@ export default function BlogList() {
           >
             <Link
               to={`/blog/${post.slug}`}
-              className="block bg-card border border-card-border rounded-2xl p-6 shadow-md no-underline hover:no-underline text-ink hover:shadow-lg transition-shadow"
+              className="flex items-start gap-4 bg-card border border-card-border rounded-2xl p-6 shadow-md no-underline hover:no-underline text-ink hover:shadow-lg transition-shadow"
             >
-              <div className="flex items-center gap-2 mb-3">
-                {post.tags.map(tag => (
-                  <span
-                    key={tag}
-                    className={cn(
-                      'text-xs font-bold px-2 py-0.5 rounded-full border',
-                      tag === 'technical'
-                        ? 'bg-dhl-red/10 border-dhl-red/30 text-dhl-red'
-                        : 'bg-dhl-yellow/20 border-dhl-yellow/50 text-ink'
-                    )}
-                  >
-                    {tag}
-                  </span>
-                ))}
-                <span className="text-sm font-semibold text-muted">{post.date}</span>
-                <span className="text-sm text-muted">· {post.readTime}</span>
+              <div
+                className="hidden sm:flex flex-shrink-0 w-40 h-40 rounded-xl items-center justify-center overflow-hidden border border-card-border"
+                style={{ background: 'color-mix(in srgb, #FFCC00 6%, white)' }}
+              >
+                <img
+                  src={post.coverImage}
+                  alt=""
+                  className="max-w-[92%] max-h-[92%] object-contain"
+                  loading="lazy"
+                />
               </div>
-              <p className="text-xl font-black leading-tight mb-2">{post.title}</p>
-              <p className="text-sm text-muted mb-3">{post.excerpt}</p>
-              <span className="text-sm font-bold text-dhl-red">Read →</span>
+              <div className="min-w-0 flex-1">
+                <div className="flex items-center gap-2 mb-3">
+                  {post.tags.map(tag => (
+                    <span
+                      key={tag}
+                      className={cn(
+                        'text-xs font-bold px-2 py-0.5 rounded-full border',
+                        tag === 'technical'
+                          ? 'bg-dhl-red/10 border-dhl-red/30 text-dhl-red'
+                          : 'bg-dhl-yellow/20 border-dhl-yellow/50 text-ink'
+                      )}
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                  <span className="text-sm font-semibold text-muted">{post.date}</span>
+                  <span className="text-sm text-muted">· {post.readTime}</span>
+                </div>
+                <p className="text-xl font-black leading-tight mb-2">{post.title}</p>
+                <p className="text-sm text-muted mb-3">{post.excerpt}</p>
+                <span className="text-sm font-bold text-dhl-red">Read →</span>
+              </div>
             </Link>
           </motion.div>
         ))}

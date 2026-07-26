@@ -62,8 +62,8 @@ The trouble comes with latent variables. Computing the exact likelihood P_data(x
 
 ### References
 
-1. Shlens, J. (2014). Notes on Kullback-Leibler Divergence and Likelihood Theory. arXiv:1404.2000v1 [cs.IT]. https://arxiv.org/abs/1404.2000
-2. Gray, R. M. (2023). Entropy and Information Theory (1st ed., corrected). Stanford University. https://ee.stanford.edu/~gray/it.pdf
-3. Han, J., Kamber, M., & Pei, J. (2011). Data Mining: Concepts and Techniques (3rd ed., §2.4.8). Morgan Kaufmann. https://hanj.cs.illinois.edu/cs412/bk3/KL-divergence.pdf
-4. Elton, D. C. Notes on GAN Objective Functions. http://www.moreisdifferent.com/assets/science_notes/notes_on_GAN_objective_functions.pdf
-5. Manisha, P., & Gujar, S. (2018). Generative Adversarial Networks (GANs): The Progress So Far In Image Generation. arXiv:1804.00140. https://arxiv.org/pdf/1804.00140
+1. [Shlens, J. (2014). Notes on Kullback-Leibler Divergence and Likelihood Theory. arXiv:1404.2000v1 [cs.IT].](https://arxiv.org/abs/1404.2000)
+2. [Gray, R. M. (2023). Entropy and Information Theory (1st ed., corrected). Stanford University.](https://ee.stanford.edu/~gray/it.pdf)
+3. [Han, J., Kamber, M., & Pei, J. (2011). Data Mining: Concepts and Techniques (3rd ed., §2.4.8). Morgan Kaufmann.](https://hanj.cs.illinois.edu/cs412/bk3/KL-divergence.pdf)
+4. [Elton, D. C. Notes on GAN Objective Functions.](http://www.moreisdifferent.com/assets/science_notes/notes_on_GAN_objective_functions.pdf)
+5. [Manisha, P., & Gujar, S. (2018). Generative Adversarial Networks (GANs): The Progress So Far In Image Generation. arXiv:1804.00140.](https://arxiv.org/pdf/1804.00140)

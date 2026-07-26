@@ -1,5 +1,29 @@
 [
   {
+    "name": "1689 Authentic Dutch Dry Gin",
+    "country": "Netherlands",
+    "flag": "🇳🇱",
+    "type": "Dry Gin",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_7494.webp"
+  },
+  {
+    "name": "1689 Authentic Dutch Orange Gin",
+    "country": "Netherlands",
+    "flag": "🇳🇱",
+    "type": "Orange Gin",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_7493.webp"
+  },
+  {
+    "name": "1689 Authentic Dutch Pink Gin",
+    "country": "Netherlands",
+    "flag": "🇳🇱",
+    "type": "Pink Gin",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_7492.webp"
+  },
+  {
     "name": "Absolut Citron",
     "country": "Sweden",
     "flag": "🇸🇪",
@@ -14,6 +38,14 @@
     "type": "Flavoured Vodka",
     "opened": false,
     "image": "bottle_images_clean/IMG_6881.webp"
+  },
+  {
+    "name": "Absolut Tabasco",
+    "country": "Sweden",
+    "flag": "🇸🇪",
+    "type": "Flavoured Vodka",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_7495.webp"
   },
   {
     "name": "Absolut Vodka",
@@ -102,6 +134,14 @@
     "type": "Peppermint Liqueur",
     "opened": false,
     "image": "bottle_images_clean/IMG_6804.webp"
+  },
+  {
+    "name": "Berliner Luft Schoko",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Peppermint Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_7504.webp"
   },
   {
     "name": "Bombay Sapphire",
@@ -308,8 +348,8 @@
     "country": "Germany",
     "flag": "🇩🇪",
     "type": "Fig Liqueur",
-    "opened": true,
-    "image": "bottle_images_clean/IMG_6911.webp"
+    "opened": false,
+    "image": "bottle_images_clean/IMG_7502.webp"
   },
   {
     "name": "Finlandia",
@@ -334,6 +374,14 @@
     "type": "Schnapps Shot",
     "opened": false,
     "image": "bottle_images_clean/IMG_6800.webp"
+  },
+  {
+    "name": "Franzi Franzbrötchen Likör",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_7499.webp"
   },
   {
     "name": "Gewürzerei Basil Smash",
@@ -452,8 +500,8 @@
     "country": "USA",
     "flag": "🇺🇸",
     "type": "Apple Liqueur",
-    "opened": true,
-    "image": "bottle_images_clean/IMG_6914.webp"
+    "opened": false,
+    "image": "bottle_images_clean/IMG_7496.webp"
   },
   {
     "name": "Jack Daniel's Tennessee Honey",
@@ -462,14 +510,6 @@
     "type": "Honey Liqueur",
     "opened": false,
     "image": "bottle_images_clean/IMG_6864.webp"
-  },
-  {
-    "name": "Jägermeister",
-    "country": "Germany",
-    "flag": "🇩🇪",
-    "type": "Herbal Liqueur",
-    "opened": false,
-    "image": "bottle_images_clean/IMG_6868.webp"
   },
   {
     "name": "Jameson",
@@ -504,12 +544,36 @@
     "image": "bottle_images_clean/IMG_6888.webp"
   },
   {
+    "name": "Jägermeister",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Herbal Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_6868.webp"
+  },
+  {
+    "name": "Jägermeister Orange",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Herbal Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_7497.webp"
+  },
+  {
     "name": "Kleiner Feigling",
     "country": "Germany",
     "flag": "🇩🇪",
     "type": "Fig Liqueur",
-    "opened": true,
-    "image": "bottle_images_clean/IMG_6906.webp"
+    "opened": false,
+    "image": "bottle_images_clean/IMG_7507.webp"
+  },
+  {
+    "name": "Kleiner Feigling Red Berry Sour",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Fruit Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_7506.webp"
   },
   {
     "name": "Klopf Mich Cream",
@@ -560,6 +624,22 @@
     "image": "bottle_images_clean/IMG_6810.webp"
   },
   {
+    "name": "Kuemmerling Kräuterlikör",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Herbal Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_7501.webp"
+  },
+  {
+    "name": "Kölsche Koks Espresso Martini Shot",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Coffee Liqueur",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_7500.webp"
+  },
+  {
     "name": "Label 5",
     "country": "France",
     "flag": "🇫🇷",
@@ -590,6 +670,14 @@
     "type": "Coconut Rum Liqueur",
     "opened": false,
     "image": "bottle_images_clean/IMG_6889.webp"
+  },
+  {
+    "name": "Martell VSOP",
+    "country": "France",
+    "flag": "🇫🇷",
+    "type": "Cognac",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_7498.webp"
   },
   {
     "name": "Martini Bianco Vermouth",
@@ -630,6 +718,14 @@
     "type": "Cognac",
     "opened": false,
     "image": "bottle_images_clean/IMG_6806.webp"
+  },
+  {
+    "name": "Monkey 47 Schwarzwald Dry Gin",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "type": "Dry Gin",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_7503.webp"
   },
   {
     "name": "Monkey Shoulder",
@@ -732,8 +828,8 @@
     "country": "Mexico",
     "flag": "🇲🇽",
     "type": "Tequila",
-    "opened": true,
-    "image": "bottle_images_clean/IMG_6912.webp"
+    "opened": false,
+    "image": "bottle_images_clean/IMG_7491.webp"
   },
   {
     "name": "Pechery Matcha & Pistachios",
@@ -878,6 +974,14 @@
     "type": "Blended Scotch Whisky",
     "opened": false,
     "image": "bottle_images_clean/IMG_6898.webp"
+  },
+  {
+    "name": "The Kraken Black Spiced Rum",
+    "country": "Trinidad and Tobago",
+    "flag": "🇹🇹",
+    "type": "Spiced Rum",
+    "opened": false,
+    "image": "bottle_images_clean/IMG_7505.webp"
   },
   {
     "name": "Torboli Crema di Fragola",

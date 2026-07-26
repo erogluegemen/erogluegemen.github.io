@@ -39,7 +39,8 @@
       "/",
       "/blog",
       "/collection",
-      "/blog/kl-divergence-explained"
+      "/blog/kl-divergence-explained",
+      "/blog/mle-to-elbo"
     ],
     "viewport": { "width": 1280, "height": 900 },
     "mobile": false,
